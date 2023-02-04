@@ -17,7 +17,7 @@ Invoke-Command choco install sudo nvim vim bat lsd git keypirinha
 
 Write-Host "[!]Configurando nvim..." -ForegroundColor Green
 
-Invoke-Command cd $Home\AppData\Local
+Invoke-Command cd $HOME\AppData\Local
 Invoke-Command mkdir nvim
 Invoke-Command cd nvim
 Invoke-Command wget https://github.com/Nooch98/dotfiles-nvim.git
