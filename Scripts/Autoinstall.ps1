@@ -24,8 +24,7 @@ Invoke-Command wget https://github.com/Nooch98/dotfiles-nvim.git
 
 Write-Host "[!]Configurando PowerShell..." -ForegroundColor Blue
 
-Invoke-Command cd
-Invoke-Command cd PowerShell\
+Invoke-Command cd $HOME\Documents\PowerShell\
 Invoke-Command wget https://github.com/Nooch98/dotfiles-Powershell.git
 
 Write-Host "[+]Instalacion y Configuracion Finalizada"
