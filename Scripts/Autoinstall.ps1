@@ -7,7 +7,7 @@ Write-Host "[+]Instalando OH-MY-POSH..." -ForegroundColor Blue
 Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 
-Write-Host "[+]Instalando CHOCOLATLY..." -ForegroundColor Yellow
+Write-Host "[+]Instalando CHOCOLATLY..." -ForegroundColor Brown
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
