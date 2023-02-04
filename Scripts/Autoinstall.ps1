@@ -13,7 +13,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 Write-Host "[+]Instalando APPS..." -ForegroundColor Purple
 
-Invoke-Command choco install sudo nvim vim bat lsd
+Invoke-Command choco install sudo nvim vim bat lsd git keypirinha
 
 Write-Host "[!]Configurando nvim..." -ForegroundColor Green
 
